@@ -26,7 +26,7 @@ def isIn(char, aStr):
 
    # Base case: See if the character in the middle of aStr equals the 
    #   test character 
-   midIndex = len(aStr)/2
+   midIndex = int(len(aStr)/2)
    midChar = aStr[midIndex]
    if char == midChar:
       # We found the character!
